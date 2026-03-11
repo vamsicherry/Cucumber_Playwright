@@ -1,0 +1,33 @@
+{
+    "RegisterEmail":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#reg_email",
+    "description":"RegisterationEmail locator",
+    "extraOptions":{}
+    },
+
+    "RegisterPassword":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#reg_password",
+    "description":"RegisterationPassword locator",
+    "extraOptions":{}
+    },
+
+     "RegisterButton":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"input[name='register'][type='submit'].woocommerce-Button.button",
+    "description":"RegisterationButton locator",
+    "extraOptions":{}
+    }
+
+    
+}

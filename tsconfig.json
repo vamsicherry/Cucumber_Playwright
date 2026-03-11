@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "types": ["node","@cucumber/cucumber"]
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "tests",
+    "tests/helper/types/**/*.ts",
+    "tests/helper/types/**/*.d.ts",
+    "tests/pages/**/*.ts"
+    
+  ]
+}

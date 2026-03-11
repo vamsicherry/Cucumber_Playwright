@@ -1,0 +1,97 @@
+{
+    "ShopCart":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#menu-item-40",
+    "description":"shoopingcart locator",
+    "extraOptions":{}
+    },
+
+    "HtmlBookPage":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"li.cat-item.cat-item-19",
+    "description":"htmlbooklink locator",
+    "extraOptions":{}
+    },
+
+     "AllBookLinksHtml":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"a.woocommerce-LoopProduct-link h3",
+    "description":"RegisterationButton locator",
+    "extraOptions":{}
+    },
+    "AddToBasket":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"button.single_add_to_cart_button.button.alt",
+        "description":"AddtocartBasket locator",
+        "extraOptions":{}
+    },
+    "CartCount":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"span.cartcontents",
+        "description":"cartcount locator",
+        "extraOptions":{}
+    },
+    "ProceedToCart":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#wpmenucartli",
+        "description":"proceedtocart locator",
+        "extraOptions":{}
+    },
+    "PriceOfProduct":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"div.cart_totals tr.order-total span.woocommerce-Price-amount.amount",
+        "description":"priceofproduct locator",
+        "extraOptions":{}
+    },
+
+    "ProceedToCheckOut":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"div.wc-proceed-to-checkout a",
+        "description":"proceedtocheckoutpage locator",
+        "extraOptions":{}
+    },
+    
+    "billingPage":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"//h3[normalize-space(text())='Billing Details']",
+        "description":"billingpage locator",
+        "extraOptions":{}
+    }
+
+
+
+    
+}

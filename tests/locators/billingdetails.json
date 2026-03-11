@@ -1,0 +1,129 @@
+{
+    "FirstName":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#billing_first_name",
+    "description":"billingfirstname locator",
+    "extraOptions":{}
+    },
+
+    "LastName":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#billing_last_name",
+    "description":"billinglastname locator",
+    "extraOptions":{}
+    },
+
+     "PhoneNumber":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#billing_phone",
+    "description":"billingphonenumber locator",
+    "extraOptions":{}
+    },
+    "Address":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#billing_address_1",
+        "description":"billingaddress locator",
+        "extraOptions":{}
+    },
+    "BillingCity":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#billing_city",
+        "description":"billingcity locator",
+        "extraOptions":{}
+    },
+    "BillingPostCode":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#billing_postcode",
+        "description":"billingpostcode locator",
+        "extraOptions":{}
+    },
+    "BillingState1":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#s2id_billing_state .select2-choice",
+        "description":"billingstate locator",
+        "extraOptions":{}
+    },
+     "BillingState2":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":".select2-results li",
+        "description":"billingstatepick locator",
+        "extraOptions":{}
+    },
+
+    "PaymentCOD":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#payment_method_cod",
+        "description":"paymentcod locator",
+        "extraOptions":{}
+    },
+    
+    "PlaceOrder":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"#place_order",
+        "description":"placeorder locator",
+        "extraOptions":{}
+    },
+
+     "FinalReceipt":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"ul.woocommerce-thankyou-order-details.order_details li",
+        "description":"finalpayment locator",
+        "extraOptions":{}
+    },
+    "readAllData":
+    {
+        "locatorOptions":
+        {
+
+        },
+        "locator":"ul.woocommerce-thankyou-order-details.order_details",
+        "description":"finalpayment locator",
+        "extraOptions":{}
+    }
+
+
+
+
+    
+}

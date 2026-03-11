@@ -1,0 +1,44 @@
+{
+    "LogoutPage":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"//a[normalize-space(text())='Sign out']",
+    "description":"LogoutLocator locator",
+    "extraOptions":{}
+    },
+    "MyAccountPage":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"//a[normalize-space(text())='My Account']",
+    "description":"myaccountlocator locator",
+    "extraOptions":{}
+    },
+     "OrdersPage":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--orders a",
+    "description":"orderspage locator",
+    "extraOptions":{}
+    },
+
+    "OrderDetailsText":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"div.woocommerce-MyAccount-content  p",
+    "description":"orderspage locator",
+    "extraOptions":{}
+    }
+
+    
+
+
+    
+}

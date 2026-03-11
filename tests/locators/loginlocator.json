@@ -1,0 +1,33 @@
+{
+    "LoginEmail":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#username",
+    "description":"LoginEmail locator",
+    "extraOptions":{}
+    },
+
+    "LoginPassword":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"#password",
+    "description":"LoginPassword locator",
+    "extraOptions":{}
+    },
+
+     "LoginButton":
+    {
+      "locatorOptions":{
+
+    },
+    "locator":"input[name='login']",
+    "description":"RegisterationButton locator",
+    "extraOptions":{}
+    }
+
+    
+}
