@@ -9,7 +9,8 @@ export declare global{
             ENV : "prod"| "staging"| "qa",
             USER_NAME:string,
             PASSWORD: string,
-            BookName:string
+            BookName:string,
+            secretkey:string
         }
 
      }

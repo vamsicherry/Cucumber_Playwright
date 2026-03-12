@@ -7,6 +7,6 @@ When   user enters registeration details
 Then   verify account created or not
 Then   user clicked on logout
 When  user is on Login page 
-Then   user enters login details 
+Then   user enters login details for register and login 
 Then   user clicked on logout
 Then  user is on registeration page

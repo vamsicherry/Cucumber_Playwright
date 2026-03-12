@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:prod":"cross-env ENV=prod cucumber-js --retry=1 --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
-    "test:qa":"cross-env ENV=qa cucumber-js --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
-    "test:staging":"cross-env ENV=staging cucumber-js --retry=1 --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
-    "test:rerun":"cross-env ENV=prod cucumber-js -p rerun @rerun.txt",
-    "test:auth":"npx playwright test tests/helper/auth/reuselogin.spec.ts --headed && npm run test:prod"
+    "test:prod": "cross-env ENV=prod cucumber-js --retry=1 --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
+    "test:qa": "cross-env ENV=qa cucumber-js --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
+    "test:staging": "cross-env ENV=staging cucumber-js --retry=1 --format json:testResults/cucumber_report.json && npx ts-node tests/helper/types/report.ts",
+    "test:rerun": "cross-env ENV=prod cucumber-js -p rerun @rerun.txt",
+    "test:auth": "npx playwright test tests/helper/auth/reuselogin.spec.ts --headed && npm run test:prod"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,7 @@
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.3.3",
     "cross-env": "^10.1.0",
+    "crypto-ts": "^1.0.2",
     "csv-parse": "^6.1.0",
     "csv-parser": "^3.2.0",
     "cucumber-html-reporter": "^7.2.0",
